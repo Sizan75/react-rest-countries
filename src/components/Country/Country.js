@@ -3,7 +3,7 @@ import './Country.css';
 
 const Country = (props) => {
     const {area , population , name, flags} = props.country;
-    console.log(props.country)
+    // console.log(props.country)
     return (
         <div className='country'>
             <h2>Country Name: {name.common}</h2>
